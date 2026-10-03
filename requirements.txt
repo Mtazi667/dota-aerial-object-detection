@@ -1,0 +1,25 @@
+# Environnement cible : CPython 3.12.10 x64 sous Windows.
+# L'index supplementaire fournit les roues PyTorch compilees pour CUDA 12.6.
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# Apprentissage profond et detection.
+torch==2.12.1+cu126
+torchvision==0.27.1+cu126
+ultralytics==8.4.118
+
+# Geometrie et evaluation.
+shapely==2.1.2
+pycocotools==2.0.11
+
+# Donnees, images et configuration.
+numpy==2.4.4
+pandas==3.0.3
+Pillow==12.2.0
+opencv-python==5.0.0.93
+PyYAML==6.0.3
+
+# Analyse causale et figures du notebook.
+scikit-learn==1.9.0
+econml==0.17.0
+matplotlib==3.11.1
+ipykernel==7.3.0

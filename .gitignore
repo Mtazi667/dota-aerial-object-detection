@@ -1,0 +1,46 @@
+# Donnees DOTA brutes (licence academique, non redistribuables).
+/Training Data/
+/Validation Data/
+/Testing Images/
+/DOTA 1.5/
+/data/
+
+# Donnees derivees, sorties et runs regenerables.
+/outputs/
+/runs/
+/tmp/
+/checkpoints/
+/weights/
+
+# Poids et checkpoints.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.safetensors
+
+# Environnements Python.
+/.venv/
+/.venv_gpu/
+venv/
+
+# Caches.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.tmp
+
+# Configuration locale et secrets.
+.env
+.env.*
+.vscode/
+.idea/
+
+# Systeme.
+.DS_Store
+Thumbs.db
